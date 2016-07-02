@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5522787A1D27279400BBCFAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 552278791D27279400BBCFAB /* main.m */; };
+		552278821D27376500BBCFAB /* NSString+pigLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = 552278811D27376500BBCFAB /* NSString+pigLatin.m */; };
+		552278861D276D4200BBCFAB /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 552278851D276D4200BBCFAB /* InputCollector.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		552278741D27279400BBCFAB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		552278761D27279400BBCFAB /* PigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
+		552278791D27279400BBCFAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		552278801D27376500BBCFAB /* NSString+pigLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+pigLatin.h"; sourceTree = "<group>"; };
+		552278811D27376500BBCFAB /* NSString+pigLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+pigLatin.m"; sourceTree = "<group>"; };
+		552278841D276D4200BBCFAB /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputCollector.h; path = ../InputCollector.h; sourceTree = "<group>"; };
+		552278851D276D4200BBCFAB /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputCollector.m; path = ../InputCollector.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		552278731D27279400BBCFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5522786D1D27279300BBCFAB = {
+			isa = PBXGroup;
+			children = (
+				552278781D27279400BBCFAB /* PigLatin */,
+				552278771D27279400BBCFAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		552278771D27279400BBCFAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				552278761D27279400BBCFAB /* PigLatin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		552278781D27279400BBCFAB /* PigLatin */ = {
+			isa = PBXGroup;
+			children = (
+				552278791D27279400BBCFAB /* main.m */,
+				552278801D27376500BBCFAB /* NSString+pigLatin.h */,
+				552278811D27376500BBCFAB /* NSString+pigLatin.m */,
+				552278841D276D4200BBCFAB /* InputCollector.h */,
+				552278851D276D4200BBCFAB /* InputCollector.m */,
+			);
+			path = PigLatin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		552278751D27279400BBCFAB /* PigLatin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5522787D1D27279400BBCFAB /* Build configuration list for PBXNativeTarget "PigLatin" */;
+			buildPhases = (
+				552278721D27279400BBCFAB /* Sources */,
+				552278731D27279400BBCFAB /* Frameworks */,
+				552278741D27279400BBCFAB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PigLatin;
+			productName = PigLatin;
+			productReference = 552278761D27279400BBCFAB /* PigLatin */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5522786E1D27279300BBCFAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "thomas minshull";
+				TargetAttributes = {
+					552278751D27279400BBCFAB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 552278711D27279300BBCFAB /* Build configuration list for PBXProject "PigLatin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5522786D1D27279300BBCFAB;
+			productRefGroup = 552278771D27279400BBCFAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				552278751D27279400BBCFAB /* PigLatin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		552278721D27279400BBCFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552278861D276D4200BBCFAB /* InputCollector.m in Sources */,
+				5522787A1D27279400BBCFAB /* main.m in Sources */,
+				552278821D27376500BBCFAB /* NSString+pigLatin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5522787B1D27279400BBCFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5522787C1D27279400BBCFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5522787E1D27279400BBCFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5522787F1D27279400BBCFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		552278711D27279300BBCFAB /* Build configuration list for PBXProject "PigLatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5522787B1D27279400BBCFAB /* Debug */,
+				5522787C1D27279400BBCFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5522787D1D27279400BBCFAB /* Build configuration list for PBXNativeTarget "PigLatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5522787E1D27279400BBCFAB /* Debug */,
+				5522787F1D27279400BBCFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5522786E1D27279300BBCFAB /* Project object */;
+}
